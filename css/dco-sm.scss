@@ -1,0 +1,26 @@
+.dco-sm-field-type {
+    display: none;
+
+    &.show {
+        display: block;
+    }
+
+    .error {
+        border-color: #c00;
+    }
+}
+
+.dco-sm-fields-list {
+    tr.active {
+        background: #E5E5E5;
+    }
+}
+
+.ui-sortable tr:hover {
+    cursor: move;
+}
+
+.ui-sortable tr.ui-sortable-helper {
+    background-color: #F9F9F9;
+    border-top: 1px solid #DFDFDF;
+}
